@@ -1,0 +1,14 @@
+// Custom.scss
+
+// Override Bootstrap variables
+$primary: #8c00ff; // Red
+$btn-border-radius: 0.5rem;
+
+// Import Bootstrap source files
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+// Add custom styles
+.btn-custom {
+  background-color: #00ff00; // Green
+  color: #0000ff; // Blue
+}
